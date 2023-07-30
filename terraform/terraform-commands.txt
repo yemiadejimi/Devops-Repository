@@ -1,0 +1,21 @@
+Install terraform on windows using below command:
+
+choco install terraform
+
+#this command will format the code in proper way
+terraform fmt 
+
+#use the below commands to init, plan anda apply
+
+terraform init
+terraform plan
+terraform apply --auto-approve
+terraform destroy -auto-approve
+terraform plan -var-file="./development/dev.tfvars"
+
+
+
+
+Terraform resource documentation:
+https://registry.terraform.io/providers/hashicorp/aws/2.36.0/docs/resources/instance
+https://registry.terraform.io/providers/hashicorp/aws/2.36.0/docs
